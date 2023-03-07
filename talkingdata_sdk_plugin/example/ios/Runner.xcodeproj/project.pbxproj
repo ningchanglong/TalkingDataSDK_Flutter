@@ -15,6 +15,16 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		C4A2B89E29B7AD2B00DDA43D /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A2B89D29B7AD2B00DDA43D /* AdServices.framework */; };
+		C4A2B8A029B7AD3B00DDA43D /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A2B89F29B7AD3B00DDA43D /* iAd.framework */; };
+		C4A2B8A229B7AD4900DDA43D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A2B8A129B7AD4900DDA43D /* StoreKit.framework */; };
+		C4A2B8A429B7AD5900DDA43D /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A2B8A329B7AD5900DDA43D /* AppTrackingTransparency.framework */; };
+		C4A2B8A629B7AD6900DDA43D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A2B8A529B7AD6900DDA43D /* AdSupport.framework */; };
+		C4A2B8A829B7AD7600DDA43D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A2B8A729B7AD7600DDA43D /* CoreTelephony.framework */; };
+		C4A2B8AA29B7AD8600DDA43D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A2B8A929B7AD8600DDA43D /* Security.framework */; };
+		C4A2B8AC29B7AD9300DDA43D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A2B8AB29B7AD9300DDA43D /* SystemConfiguration.framework */; };
+		C4A2B8AE29B7ADA000DDA43D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A2B8AD29B7ADA000DDA43D /* libc++.tbd */; };
+		C4A2B8B029B7ADA700DDA43D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A2B8AF29B7ADA700DDA43D /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +59,16 @@
 		9C691CE806FFC50B7D66B1D4 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		B0DE40E725268886C9FEAF22 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		BEB1ECAB070145E7C3062ACC /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A2B89D29B7AD2B00DDA43D /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		C4A2B89F29B7AD3B00DDA43D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C4A2B8A129B7AD4900DDA43D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C4A2B8A329B7AD5900DDA43D /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		C4A2B8A529B7AD6900DDA43D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C4A2B8A729B7AD7600DDA43D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C4A2B8A929B7AD8600DDA43D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C4A2B8AB29B7AD9300DDA43D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C4A2B8AD29B7ADA000DDA43D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C4A2B8AF29B7ADA700DDA43D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A2B8B029B7ADA700DDA43D /* libz.tbd in Frameworks */,
+				C4A2B8AE29B7ADA000DDA43D /* libc++.tbd in Frameworks */,
+				C4A2B8AC29B7AD9300DDA43D /* SystemConfiguration.framework in Frameworks */,
+				C4A2B8AA29B7AD8600DDA43D /* Security.framework in Frameworks */,
+				C4A2B8A829B7AD7600DDA43D /* CoreTelephony.framework in Frameworks */,
+				C4A2B8A629B7AD6900DDA43D /* AdSupport.framework in Frameworks */,
+				C4A2B8A429B7AD5900DDA43D /* AppTrackingTransparency.framework in Frameworks */,
+				C4A2B8A229B7AD4900DDA43D /* StoreKit.framework in Frameworks */,
+				C4A2B8A029B7AD3B00DDA43D /* iAd.framework in Frameworks */,
+				C4A2B89E29B7AD2B00DDA43D /* AdServices.framework in Frameworks */,
 				089E33AA14C54AA59FB6D48E /* libPods-Runner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +96,16 @@
 		0EC35CDC8FD4AB9E65993D3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C4A2B8AF29B7ADA700DDA43D /* libz.tbd */,
+				C4A2B8AD29B7ADA000DDA43D /* libc++.tbd */,
+				C4A2B8AB29B7AD9300DDA43D /* SystemConfiguration.framework */,
+				C4A2B8A929B7AD8600DDA43D /* Security.framework */,
+				C4A2B8A729B7AD7600DDA43D /* CoreTelephony.framework */,
+				C4A2B8A529B7AD6900DDA43D /* AdSupport.framework */,
+				C4A2B8A329B7AD5900DDA43D /* AppTrackingTransparency.framework */,
+				C4A2B8A129B7AD4900DDA43D /* StoreKit.framework */,
+				C4A2B89F29B7AD3B00DDA43D /* iAd.framework */,
+				C4A2B89D29B7AD2B00DDA43D /* AdServices.framework */,
 				BEB1ECAB070145E7C3062ACC /* libPods-Runner.a */,
 			);
 			name = Frameworks;
@@ -347,14 +387,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = W7YDEDGW4E;
+				DEVELOPMENT_TEAM = 3HW52P37DH;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.talkingdata.talkingdataSdkPluginExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ningchanglong.talkingdataSdkPluginExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -471,14 +511,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = W7YDEDGW4E;
+				DEVELOPMENT_TEAM = 3HW52P37DH;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.talkingdata.talkingdataSdkPluginExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ningchanglong.talkingdataSdkPluginExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -490,14 +530,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = W7YDEDGW4E;
+				DEVELOPMENT_TEAM = 3HW52P37DH;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.talkingdata.talkingdataSdkPluginExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ningchanglong.talkingdataSdkPluginExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
